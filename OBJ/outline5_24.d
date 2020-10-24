@@ -1,0 +1,9 @@
+..\obj\outline5_24.o: ..\EMWIN_APP\IMG\ICON\output\Guide_Button\outline5_24.c
+..\obj\outline5_24.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\outline5_24.o: ..\EMWIN\STemWin\inc\GUI.h
+..\obj\outline5_24.o: ..\EMWIN\STemWin\inc\GUI_ConfDefaults.h
+..\obj\outline5_24.o: ..\EMWIN\STemWin\Config\GUIConf.h
+..\obj\outline5_24.o: ..\EMWIN\STemWin\inc\GUI_Type.h
+..\obj\outline5_24.o: ..\EMWIN\STemWin\inc\LCD.h
+..\obj\outline5_24.o: ..\EMWIN\STemWin\inc\Global.h
+..\obj\outline5_24.o: ..\EMWIN\STemWin\inc\GUI_Version.h

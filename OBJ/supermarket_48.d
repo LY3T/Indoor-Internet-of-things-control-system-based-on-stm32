@@ -1,0 +1,9 @@
+..\obj\supermarket_48.o: ..\EMWIN_APP\IMG\ICON\output\MIUI_ICON\supermarket_48.c
+..\obj\supermarket_48.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\supermarket_48.o: ..\EMWIN\STemWin\inc\GUI.h
+..\obj\supermarket_48.o: ..\EMWIN\STemWin\inc\GUI_ConfDefaults.h
+..\obj\supermarket_48.o: ..\EMWIN\STemWin\Config\GUIConf.h
+..\obj\supermarket_48.o: ..\EMWIN\STemWin\inc\GUI_Type.h
+..\obj\supermarket_48.o: ..\EMWIN\STemWin\inc\LCD.h
+..\obj\supermarket_48.o: ..\EMWIN\STemWin\inc\Global.h
+..\obj\supermarket_48.o: ..\EMWIN\STemWin\inc\GUI_Version.h

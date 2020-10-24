@@ -1,0 +1,9 @@
+..\obj\on_64.o: ..\EMWIN_APP\IMG\ICON\output\Switch\on_64.c
+..\obj\on_64.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\on_64.o: ..\EMWIN\STemWin\inc\GUI.h
+..\obj\on_64.o: ..\EMWIN\STemWin\inc\GUI_ConfDefaults.h
+..\obj\on_64.o: ..\EMWIN\STemWin\Config\GUIConf.h
+..\obj\on_64.o: ..\EMWIN\STemWin\inc\GUI_Type.h
+..\obj\on_64.o: ..\EMWIN\STemWin\inc\LCD.h
+..\obj\on_64.o: ..\EMWIN\STemWin\inc\Global.h
+..\obj\on_64.o: ..\EMWIN\STemWin\inc\GUI_Version.h

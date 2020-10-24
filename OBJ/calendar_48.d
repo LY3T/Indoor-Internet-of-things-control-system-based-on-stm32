@@ -1,0 +1,9 @@
+..\obj\calendar_48.o: ..\EMWIN_APP\IMG\ICON\output\MIUI_ICON\calendar_48.c
+..\obj\calendar_48.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\calendar_48.o: ..\EMWIN\STemWin\inc\GUI.h
+..\obj\calendar_48.o: ..\EMWIN\STemWin\inc\GUI_ConfDefaults.h
+..\obj\calendar_48.o: ..\EMWIN\STemWin\Config\GUIConf.h
+..\obj\calendar_48.o: ..\EMWIN\STemWin\inc\GUI_Type.h
+..\obj\calendar_48.o: ..\EMWIN\STemWin\inc\LCD.h
+..\obj\calendar_48.o: ..\EMWIN\STemWin\inc\Global.h
+..\obj\calendar_48.o: ..\EMWIN\STemWin\inc\GUI_Version.h

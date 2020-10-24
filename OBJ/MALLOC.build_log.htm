@@ -1,0 +1,129 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Joy Yong, Tenxun, LIC=MGXHL-02XA5-06YQU-SHPWV-00QQB-MDNE3
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.23
+Toolchain Path:  D:\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+C:\Users\Yong\Desktop\新项目\稳定版\主机\EMWIN_WIFI_USART_DMA_RX_TX_MESH_RTC_CAM_Simplify_21\USER\Template.uvprojx
+Project File Date:  10/23/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+..\EMWIN_APP\TASK\Framewin_timesettingDLG.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\USART2\usart2.h(31): warning:  #1000-D: a storage class may not be specified here
+  extern struct dev_info
+main.c(251): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  	strcpy(USART3_RX_BUF_COPY,(const char *)USART3_RX_BUF);
+main.c(279): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  		ap_list_para[i].ecn=(char)atoi(ap_list_temp);
+main.c(286): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  		ap_list_end = strchr(ap_list_temp,'\"');
+main.c(286): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "u8 *"
+  		ap_list_end = strchr(ap_list_temp,'\"');
+main.c(290): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  		sprintf(ap_list_para[i].ssid,ap_list_temp);
+main.c(290): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  		sprintf(ap_list_para[i].ssid,ap_list_temp);
+main.c(300): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  		ap_list_end = strchr(ap_list_temp,',');
+main.c(300): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "u8 *"
+  		ap_list_end = strchr(ap_list_temp,',');
+main.c(306): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  		ap_list_para[i].rssi = atoi(ap_list_temp);
+main.c(316): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  		ap_list_end = strchr(ap_list_temp,'\"');
+main.c(316): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "u8 *"
+  		ap_list_end = strchr(ap_list_temp,'\"');
+main.c(320): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  		sprintf(ap_list_para[i].mac,ap_list_temp);
+main.c(320): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  		sprintf(ap_list_para[i].mac,ap_list_temp);
+main.c(330): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  		ap_list_end = strchr(ap_list_temp,')');
+main.c(330): warning:  #513-D: a value of type "char *" cannot be assigned to an entity of type "u8 *"
+  		ap_list_end = strchr(ap_list_temp,')');
+main.c(334): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  		ap_list_para[i].channel = (char)atoi(ap_list_temp);
+main.c(1005): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  				if(strstr(USART3_RX_BUF,"STATUS:2"))
+main.c(1071): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				sprintf(MQTT_SEND_UPDATE_BUFF,"AT+MQTTPUB=0,\"update\",\"%2d%2d%2d%2d%2d%2d%2d%2d%2d%2d%2d%2d%2d%2d%2d\",1,0",mesh_dev[0].MADDR,mesh_dev[0].Read_only_value[0],mesh_dev[0].Read_only_value[1],mesh_dev[0].Read_write_value[0],mesh_dev[0].Read_write_value[1],\
+main.c(1076): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *"
+  				ESP8266_Send_AT_Cmd(MQTT_SEND_UPDATE_BUFF,"OK",0,5);
+main.c(1119): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strncpy(net_time,&USART3_RX_BUF[17],20);
+main.c(1119): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(net_time,&USART3_RX_BUF[17],20);
+main.c(1123): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strncpy(time_buff,net_time,3);
+main.c(1123): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(time_buff,net_time,3);
+main.c(1145): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strncpy(net_time,&USART3_RX_BUF[38],19);
+main.c(1145): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(net_time,&USART3_RX_BUF[38],19);
+main.c(1150): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				token = strtok(net_time, s);
+main.c(1215): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				token = strtok(USART3_RX_BUF, s2);
+main.c(1234): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						strcpy(weather,token);
+main.c(1259): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				strncpy(net_time,&USART3_RX_BUF[38],19);
+main.c(1259): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *restrict"
+  				strncpy(net_time,&USART3_RX_BUF[38],19);
+main.c(1263): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				token = strtok(net_time, s);
+main.c(1280): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  				token = strtok(USART3_RX_BUF, s2);
+main.c(1290): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+  						strcpy(weather,token);
+main.c(1299): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "const char *"
+  				if(strstr(USART3_RX_BUF,"STATUS:2"))
+main.c(877): warning:  #550-D: variable "at_timeout"  was set but never used
+  	u8 at_timeout;
+main.c(885): warning:  #177-D: variable "len"  was declared but never referenced
+  	u8 len;
+main.c(887): warning:  #177-D: variable "len2"  was declared but never referenced
+  	u8 len2;
+main.c(889): warning:  #177-D: variable "rx_data_len"  was declared but never referenced
+  	u8 rx_data_len;
+main.c(891): warning:  #177-D: variable "rx_data_len_len"  was declared but never referenced
+  	u8 rx_data_len_len;
+main.c(901): warning:  #177-D: variable "cpu_sr"  was declared but never referenced
+  	CPU_SR_ALLOC();
+main.c: 42 warnings, 0 errors
+linking...
+Program Size: Code=226416 RO-data=187144 RW-data=7668 ZI-data=925412  
+FromELF: creating hex file...
+"..\OBJ\MALLOC.axf" - 0 Error(s), 42 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

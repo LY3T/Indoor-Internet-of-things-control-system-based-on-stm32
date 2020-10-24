@@ -1,0 +1,9 @@
+..\obj\maps_48.o: ..\EMWIN_APP\IMG\ICON\output\MIUI_ICON\maps_48.c
+..\obj\maps_48.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\maps_48.o: ..\EMWIN\STemWin\inc\GUI.h
+..\obj\maps_48.o: ..\EMWIN\STemWin\inc\GUI_ConfDefaults.h
+..\obj\maps_48.o: ..\EMWIN\STemWin\Config\GUIConf.h
+..\obj\maps_48.o: ..\EMWIN\STemWin\inc\GUI_Type.h
+..\obj\maps_48.o: ..\EMWIN\STemWin\inc\LCD.h
+..\obj\maps_48.o: ..\EMWIN\STemWin\inc\Global.h
+..\obj\maps_48.o: ..\EMWIN\STemWin\inc\GUI_Version.h
